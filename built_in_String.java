@@ -8,7 +8,7 @@ public class built_in_String {
         System.out.println("A frase contém " + frase.length() + " caracteres.");
 
         //sbstring pega uma parte da frase
-        System.out.println("A frase contém " + frase.substring(9, 14) + " na posição 0 até a posição 4.");
+        System.out.println("A frase contém " + frase.substring(0, 4) + " na posição 0 até a posição 4.");
 
         //toUpperCase deixa a frase em maiúsculo
         System.out.println("A frase em maiúsculo é: " + frase.toUpperCase());
